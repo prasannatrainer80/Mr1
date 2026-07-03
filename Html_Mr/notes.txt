@@ -1,0 +1,87 @@
+Web Applications : These are the applications that which are to be called from various places rather than where they are created. 
+
+If you want to make any distributed or robust applications, then we need the help of web applications.
+
+You can create web applications in 2 ways as 
+
+(i) Scripting Languages : These are the languages that which are interpreted, during runtime they takes lot of time to execute. 
+
+(HTML, CSS, JavaScript, Jquery) 
+
+(ii) Programming Languages : These are the languages, that which are compiled first, during runtime they takes very less time to execute. 
+
+(Java, PHP, Python) 
+
+What is Client-Side Scripting and Server-Side Scripting 
+
+Client-Side scripting enables you to access the application from the client-system, No Network traffic and Execution will be faster. 
+
+Server-Side scripting enables you to access the application from the server-system, Network traffic is high, a bit slower. 
+
+HTML (HyperText Markup Language) 
+
+Which allows you to create any sample web pages. 
+
+To start with HTML, 
+
+<html>
+</html>
+
+<head> </head> : Used to define the global content for the given page.
+
+<title></title> : Used to display heading on title bar.
+
+<body>
+</body> : Contains the actual content of the given page. 
+
+Definition Language : 
+_____________________
+
+You can start with definition language as
+
+<dl>
+</dl> 
+
+<dt> </dt> : Definition Term
+
+<dd> </dd> : Definition Description
+
+Anchor Tag. 
+
+Used to refer internal or external pages of to the current doc.
+
+Example : 
+__________
+
+<a href="target_page">target page</a>
+
+<ol> : Ordered List allows you print data in numbers/alphabets/rowman nos etc...
+
+<ul> : Displays data as unordered List. 
+
+  type : disc, square, circle 
+
+Forms : Allows you to accept input from the keyboard. 
+
+You can define forms, by using 
+
+<form name="frmData">
+</form>
+
+<input type="text"/>
+<input type="number" />
+<input type="date" />
+<input type="time" /> 
+<input type="email" /> 
+
+<input type="color" />
+<input type="button" />
+<input type="submit" />
+<input type="reset" /> 
+
+
+
+
+
+
+
