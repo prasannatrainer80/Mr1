@@ -79,6 +79,33 @@ You can define forms, by using
 <input type="submit" />
 <input type="reset" /> 
 
+Tables : Allows you to display data w.r.t. Rows and Columns. 
+
+You can define table, by using
+
+<table>
+</table> tag.
+
+<tr> </tr> : used to add new row
+
+<th> </th> : Used to add new column
+
+<td> </td> : Used to add data to the table column. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
