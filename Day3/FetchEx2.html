@@ -1,0 +1,31 @@
+<html>
+<head>
+    <script>
+        let url = "https://jsonplaceholder.typicode.com/users/1";
+
+        const show = () => {
+            fetch(url)
+                .then(res => res.json())
+                .then(success => {
+                    console.log(success);
+
+                    document.writeln(
+                        "Id: " + success.id +
+                        " Name: " + success.name +
+                        " Email: " + success.email +
+                        " UserName: " + success.username
+                    );
+                })
+                .catch(error => {
+                    console.log(error);
+                });
+        }
+    </script>
+</head>
+
+<body>
+    <script>
+        show();
+    </script>
+</body>
+</html>

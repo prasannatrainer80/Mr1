@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script>
+            const search = async () => {
+                var id = parseInt(frmData.id.value);
+                let result="";
+                let url = "http://jsonplaceholder.typicode.com/users/"+id;
+                 fetch(url)
+                .then(res => res.json())
+                .then(success => {
+                    console.log(success);
+                    result +="Id: " + success.id + " Name: " + success.name 
+                    + " Email: " + success.email + " UserName: " + success.username;
+                    document.getElementById("result").innerHTML = result;
+                })
+                .catch(error => {
+                    console.log(error);
+                });             
+            } 
+        </script>
+    </head>
+<body>
+    <form name="frmData">
+        Id : 
+        <input type="number" name="id" /> <br/><br/>
+        <input type="button" value="Show" onclick="search()" /> <hr/>
+        <span id="result"></span>
+    </form>
+</body>
+</html>

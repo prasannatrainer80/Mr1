@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script>
+            const demo = async () => {
+                let greeting = new Promise((resolve, reject) => resolve("Hello"));
+                let hello = new Promise((resolve,reject) => {
+                    setTimeout(() => {
+                        resolve("Good Morning to All...")
+                    }, 2000)
+                })
+                let res = Promise.all([greeting,hello]);
+                return res;
+            }
+
+            const display = async () => {
+                let data = await demo();
+                alert(data);
+            }
+        </script>
+    </head>
+<body>
+    <script>
+        display();
+    </script>
+</body>
+</html>

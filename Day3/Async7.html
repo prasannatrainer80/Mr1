@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script>
+             const fetchData = async () => {
+                // http://jsonplaceholder.typicode.com/posts
+                let response = await fetch("https://jsonplaceholder.typicode.com/users");
+                let data = await response.json();
+                // console.log(data);
+                for(var v in data) {
+                    document.writeln("ID  <b>" +data[v].id + "</b> Name <b>" 
+                        +data[v].name + "</b> UserName  <b> " 
+                        +data[v].username + "</b> Email  <b>" +data[v].email 
+                        + "</b>  Phone  <b>" 
+                        +data[v].phone + "</b> Website  <b>" +data[v].website + "</b><br/>");
+                }
+            }
+        </script>
+    </head>
+<body>
+    <script>
+        fetchData();
+    </script>
+</body>
+</html>
