@@ -3,6 +3,7 @@ import './App.css';
 import First from './components/first/first';
 import Second from './components/second/second';
 import Third from './components/third/third';
+import Four from './components/four/four';
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
      <Second /> <br/>
      <p>
         <Third firstName="Prasanna" lastName="Pappu" company="Hexaware" />
+      </p>
+      <p>
+        <Four />
       </p>
 
       <header className="App-header">
