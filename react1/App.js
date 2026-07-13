@@ -5,6 +5,7 @@ import Second from './components/second/second';
 import Third from './components/third/third';
 import Four from './components/four/four';
 import Five from './components/five/five';
+import Six from './components/six/six';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
       </p>
     <p>
       <Five />
+    </p>
+    <p>
+      <Six />
     </p>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
