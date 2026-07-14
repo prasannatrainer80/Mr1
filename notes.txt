@@ -1,0 +1,29 @@
+In c:\react folder open command prompt and 
+
+type the below command 
+
+create-react-app routing-demo
+
+cd routing-demo
+
+npm i react-router-dom
+
+rg component menu -f
+
+
+
+
+now go to c:\react folder and 
+
+create-react-app login-demo
+
+cd login-demo
+
+npm i react-router-dom
+
+rg component login -f
+
+
+
+
+
