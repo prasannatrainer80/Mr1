@@ -15,6 +15,12 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Menu />} />
+          <Route path="/first" element={<First />} />
+          <Route path="/second" element={<Second />} />
+          <Route path="/third" element={<Third />} />
+          <Route path="/four" element={<Four />} />
+          <Route path="/five" element={<Five />} />
+          <Route path="six" element={<Six />} />
         </Routes>
       </BrowserRouter>
     </div>
