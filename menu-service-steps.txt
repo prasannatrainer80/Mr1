@@ -1,0 +1,15 @@
+in c:\react folder open command prompt and
+
+create a project as 
+
+create-react-app service-routing
+
+cd service-routing
+
+npm install react-router-dom
+npm install axios
+
+then copy the src folder from github menu-service zip file
+then run the project as
+
+npm start
